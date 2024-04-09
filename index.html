@@ -16,44 +16,41 @@
             <!-- Right side container -->
             <div class="right-side-container">
                 <!-- About me section -->
-                <div class="about-me-section">
-                    <h4>Information Technology Student</h4>
-                    <h1>Negru Briana-Maria</h1>
-                    <p>Currently studying Information Technology at Politehnica University of Timisoara, Faculty of Automation and
-                        Computers.</p>
+                <div>
+                    <h4 class="about-me-profession">Information Technology Student</h4>
+                    <h1 class="about-me-name">Negru Briana-Maria</h1>
+                    <p class="about-me-description">Highly motivated student with a strong commitment to learning and contributing to the advancement of knowledge in the field. Currently a second year Information Technology student at Politehnica University of Timisoara, Faculty of Automation and
+                        Computing.</p>
                 </div>
             
                 <!-- Projects section -->
-                <div>
-                    <h3>Projects</h3>
-                    <ol>
+                <div class="projects-section">
+                    <h3 class="projects-header">Projects:</h3>
+                    <ol class="projects-list">
                         <li>
-                            <a href="https://barbershop.goit.global/">https://barbershop.goit.global/</a>
-                            <span>..................</span>
-                            <span>[ HTML5, CSS3 ]</span>
+                            <a href="https://www.tinkercad.com/things/gBGkL9KGbXt-text-animat-pe-ecran-lcd" target="_blank" class="project-name">Animated text on LCD screen</a>
+                            <span class="project-info">..................</span>
+                            <span class="project-info">[C++, Arduino]</span>
                         </li>
                         <li>
-                            <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-                            <span>..................</span>
-                            <span>[ JavaScript ]</span>
-                        </li>
-                        <li>
-                            <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-                            <span>..................</span>
-                            <span>[ React.js, Node.js ]</span>
+                            <a href="https://github.com/pbm21sdp/projects/tree/main/Morse%20Decoder" target="_blank" class="project-name">Morse audio to text decoder</a>
+                            <span class="project-info">.....................</span>
+                            <span class="project-info">[MATLAB]</span>
                         </li>
                     </ol>
                 </div>
             
                 <!-- Work experience section -->
-                <div>
-                    <h3>Work Experience</h3>
+                <div class="work-experience-section">
+                    <h3 class="work-experience-header">Work Experience</h3>
             
                     <!-- 1st company -->
-                    <div>
-                        <h4>Front-End Developer Freelance</h4>
-                        <p>March 2022 - up to now | Country</p>
-                        <ul>
+                    <div class="company-container">
+                        <h4 class="company-name">Front-End Developer 
+                            <span class="company-info">Freelance</span>
+                        </h4>
+                        <p class="company-time">March 2022 - up to now | Country</p>
+                        <ul class="company-elements-list">
                             <li>Dezvoltare de site-uri și aplicații mobile</li>
                             <li>Remedieri de erori și îmbunătățiri ale funcționalității existente</li>
                             <li>Creșterea productivității site-urilor SPA și statice</li>
@@ -62,10 +59,12 @@
                     </div>
             
                     <!-- 2nd company -->
-                    <div>
-                        <h4>Front-End Developer Freelance</h4>
-                        <p>October 2019 - up to now | Country</p>
-                        <ul>
+                    <div class="company-container">
+                        <h4 class="company-name">Front-End Developer 
+                            <span class="company-info">Freelance</span>
+                        </h4>
+                        <p class="company-time">October 2019 - up to now | Country</p>
+                        <ul class="company-elements-list">
                             <li>Dezvoltare de site-uri și aplicații mobile</li>
                             <li>Remedieri de erori și îmbunătățiri ale funcționalității existente</li>
                             <li>Creșterea productivității site-urilor SPA și statice</li>
@@ -74,10 +73,12 @@
                     </div>
             
                     <!-- 3rd company -->
-                    <div>
-                        <h4>Manager Glory LLC</h4>
-                        <p>June 2014 - February 2015 | Country</p>
-                        <ul>
+                    <div class="company-container">
+                        <h4 class="company-name">Manager Glory 
+                            <span class="company-info">LLC</span>
+                        </h4>
+                        <p class="company-time">June 2014 - February 2015 | Country</p>
+                        <ul class="company-elements-list">
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
                             <li>Quis ipsum suspendisse ultrices gravida</li>
                             <li>Risus commodo viverra maecenas.</li>
@@ -86,69 +87,94 @@
                 </div>
             
                 <!-- Education section -->
-                <div>
-                    <h3>Education</h3>
+                <div class="education-section">
+                    <h3 class="education-header">Education</h3>
                     <!-- First form of education -->
-                    <div>
-                        <h4>Politehnica University of Timisoara</h4>
-                        <h5>Information Technology</h5>
-                        <p>September 2022 - present | Romania</p>
+                    <div class="description-of-education-place">
+                        <h4 class="name-of-education-place">Politehnica University of Timisoara</h4>
+                        <h5 class="object-of-study">Information Technology</h5>
+                        <p class="education-duration">September 2022 - present | Timisoara, Timis, Romania</p>
                     </div>
                     <!-- Second form of education -->
-                    <div>
-                        <h4>"Carmen Sylva" National Pedagogical College</h4>
-                        <h5>Natural Science</h5>
-                        <p>September 2018 - May 2022 | Romania</p>
+                    <div class="description-of-education-place">
+                        <h4 class="name-of-education-place">"Carmen Sylva" National Pedagogical College</h4>
+                        <h5 class="object-of-study">Natural Science</h5>
+                        <p class="education-duration">September 2018 - May 2022 | Timisoara, Timis, Romania</p>
                     </div>
+                </div>
+
+                <!-- Languages section -->
+                <div class="languages-section">
+                    <h3 class="language-header">Languages</h3>
+                    <ol class="languages-list">
+                        <li> 
+                            <span class="language-name">Romanian | Native</span> 
+                        </li>
+                        <li>
+                            <span class="language-name">English | C2 Proficiency | Certificate in Advanced English - Grade A</span>
+                        </li>
+                        <li>
+                            <span class="language-name">German | B1</span>
+                        </li>
+                    </ol>
                 </div>
             </div>
             
             <aside class="sidebar-section">
-                <img src="images/eu cv.jpeg" alt="Profile picture" width="200">
+                <img src="images/cv.jpg" alt="Profile picture" width="250" class="sidebar-image">
             
                 <!-- Contact information -->
-                <div>
-                    <h3>Contacts</h3>
-                    <div>
-                        <a href="tel:+40742222222">
-                            <span>C:</span>
-                            +40 742 222 222
-                        </a>
+                <div class="contacts-container">
+                    <h3 class="contacts-header">Contacts</h3>
+                    <div class="contacts-element">
+                        <span class="contacts-item">C:</span>
+                        <a href="tel:+40742590573" class="contacts-phone">+40 742 590 573</a>
                     </div>
                     <div>
-                        <a href="mailto:brianan@yahoo.com">
-                            <span>E:</span>
-                            brianan@yahoo.com
-                        </a>
+                        <span class="contacts-item">E:</span>
+                        <a href="mailto:briana.negru@student.upt.ro" class="contacts-email">briana.negru</a>
+                    </div>
+                    <div>
+                        <span class="contacts-item">L:</span>
+                        <a href="https://www.linkedin.com/in/briana-negru-4344a9301/" target="_blank" class="contacts-linkedin">Linkedin</a>
+                    </div>
+                    <div>
+                        <span class="contacts-item">G:</span>
+                        <a href="https://github.com/pbm21sdp/projects/tree/main" target="_blank" class="contacts-github">GitHub</a>
                     </div>
                 </div>
             
                 <!-- Tech skills section -->
-                <div>
-                    <h3>Tech Skills</h3>
-                    <ul>
+                <div class="tech-skills-section">
+                    <h3 class="tech-skills-header">Tech Skills</h3>
+                    <ul class="tech-skills-list">
                         <li>C</li>
                         <li>Python</li>
                         <li>GIT</li>
+                        <li>C++</li>
+                        <li>Arduino</li>
                         <li>MATLAB</li>
                         <li>JavaScript</li>
                         <li>Java</li>
                         <li>Verilog</li>
+                        <li>Object-Oriented Programming</li>
                     </ul>
                 </div>
             
                 <!-- Soft skills section -->
-                <div>
-                    <h3>Soft Skills</h3>
-                    <ul>
+                <div class="soft-skills-section">
+                    <h3 class="soft-skills-header">Soft Skills</h3>
+                    <ul class="soft-skills-list">
                         <li>Scrum</li>
                         <li>Agile</li>
                         <li>Waterfall</li>
                         <li>Critical Thinking</li>
                         <li>Teamwork</li>
                         <li>Work ethic</li>
+                        <li>Ability to work under pressure</li>
                         <li>Attention to detail</li>
                         <li>Conflict resolution</li>
+                        <li>Research and data analysis</li>
                     </ul>
                 </div>
             </aside>
